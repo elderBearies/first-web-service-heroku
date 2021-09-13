@@ -2,8 +2,8 @@
 const http = require('http');
 const url = require('url');
 const query = require('querystring');
-const jsonHandler = require('./jsonResponses.js');
-const htmlHandler = require('./htmlResponses.js');
+const jsonHandler = require('./jsonResponses');
+const htmlHandler = require('./htmlResponses');
 
 // 2 - pull in URL and query modules (for URL parsing)
 
